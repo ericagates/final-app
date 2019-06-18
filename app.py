@@ -3,11 +3,11 @@ import sys
 from flask import Flask, flash, request, redirect, url_for
 from werkzeug.utils import secure_filename
 from flask import send_from_directory
-sys.path.append("/Users/ericagizara/documents/learn-IT-girl/object-finder/Mask_RCNN/")
-sys.path.append("/Users/ericagizara/documents/learn-IT-girl/object-finder/Mask_RCNN/mrcnn/")
+sys.path.append("Mask_RCNN/")
+sys.path.append("Mask_RCNN/mrcnn/")
 from samples.test import myFunction, initializeModel
 
-UPLOAD_FOLDER = '/Users/ericagizara/documents/learn-IT-girl/object-finder/uploads/'
+UPLOAD_FOLDER = 'uploads/'
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
 
 app = Flask(__name__)

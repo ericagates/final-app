@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 
 # Root directory of the project
-ROOT_DIR = os.path.abspath("/Users/ericagizara/documents/learn-IT-girl/object-finder/Mask_RCNN/")
+ROOT_DIR = os.path.abspath("../")
 
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)  # To find local version of the library
@@ -110,7 +110,7 @@ def myFunction(filename):
                                 class_names, r['scores'], filename=filename)
     return name
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
 
-    initializeModel()
-    myFunction("/Users/ericagizara/documents/learn-IT-girl/object-finder/uploads/elephant1.jpg")
+   # initializeModel()
+    # myFunction("/Users/ericagizara/documents/learn-IT-girl/object-finder/uploads/elephant1.jpg")

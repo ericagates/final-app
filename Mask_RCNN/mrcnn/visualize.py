@@ -170,7 +170,7 @@ def display_instances(image, boxes, masks, class_ids, class_names,
 
     if auto_show:
         # CHANGE THIS PATH
-        UPLOAD_FOLDER_PATH = '/Users/ericagizara/documents/learn-IT-girl/object-finder/uploads/'
+        UPLOAD_FOLDER_PATH = '../uploads/'
         NEW_IMAGE_NAME = 'preprocessed_{}.png'.format(os.path.splitext(os.path.basename(filename))[0])
 
         if os.path.exists(NEW_IMAGE_NAME):
